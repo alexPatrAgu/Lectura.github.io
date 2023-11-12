@@ -1,0 +1,67 @@
+*{
+    margin:auto;
+    padding:auto;
+    box-sizing: border-box;
+}
+/*
+Margen principal del formulario
+tamaño y color
+ width= largo
+*/
+.formulario_1{
+    width:700px;
+    background: #2565C8;
+    padding:120px;
+    margin:auto;
+    margin-top:auto;
+    border-radius: 90px;
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+    box-shadow: 7px 13px 37px black;
+}
+.formulario_1 h4{
+    font-size:22px;
+    margin-bottom: 20px;
+}
+
+.controles{
+    width:100%;
+    background:white;
+    padding:10px;
+    border-radius:20px;
+    margin-bottom: 16px;
+    border:5px solid #2540C8;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+.formulario_1 p{
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+
+.formulario_1 .botones{
+    width: 50%;
+    padding:19px;
+    margin:16px 120px;
+    font-size:16px;
+    border-radius:20px;
+    background:black;
+    color: aliceblue;
+}
+
+
+    
+    
+    
+    
+.imagen_formulario{
+    
+    width:300px;
+    height: 300px;
+    border-radius: 400px;
+    justify-content: center;
+    align-items: center;
+}

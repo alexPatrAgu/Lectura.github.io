@@ -1,0 +1,45 @@
+<html>
+    <!--TITULO DE PAGINA-->
+    <head>
+        <title>Lectura</title> 
+        <!--APLICACION DE CSS-->
+        <link href="css/menu.css" rel="stylesheet">
+        <link href="css/estyle2.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/formulario.css" rel="stylesheet">
+    </head>
+        <!--COLOR DEL CUERPO DE LA PAGINA-->
+    <body bgcolor="#FFFFFF">
+        <!--TABLA PRINCIPAL-->
+        <!--Centra; color-->
+        <table border="0" width="95%" align="center" bgcolor="#0B73F8" class="tabla_1" padding="auto">
+            <!--TABLA_2--> 
+            <tr>
+                <td colspan="2">&nbsp;</td>
+            </tr>
+            <!--FORMULARIO--> 
+            <tr>
+                <td colspan="1" class="tabla_1" align="center">           
+                    <section class="formulario_1">
+                        <img src="imagenes/formulario_hoy/Formulario_Imag.jpeg" class="imagen_formulario">
+                        <br>
+                        <br>
+                        <h4 align="justify" class="parrafos"> "Cada libro es una aventura esperando ser descubierta. Sumergete en la magia de las palabras!" </h4>
+                        <h4 align="center">Bienvenido/a</h4>
+                        <h4 align="center">Ingresa tus datos</h4>
+                        <form class="" action="Registro.php" method="POST">
+                            <input class="controles" type="text" pattern="[A-Za-z]++" name="nombre"  required placeholder="Su nombre" title="Por favor, ingrese solo letras" required>
+                            <input class="controles" type="text" name="edad" pattern="[0-9]+"  required placeholder="Su edad" title="Por favor, ingrese solo numeros" required>
+                            <input class="botones" type="submit" value="Guardar">
+                        </form>
+                    </section>
+                </td>
+            </tr>
+            
+            <!--TABLA PIE DEL DISEÑO-->
+            <tr>
+                <td colspan="2">&nbsp;</td>
+            </tr>
+        </table>
+    </body>
+</html>

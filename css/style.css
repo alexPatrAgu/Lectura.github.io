@@ -1,0 +1,60 @@
+
+small {
+  color:white;
+  font-size:19px;
+}
+
+.Para_inicio{
+  color:#060606;
+  font-size:30px;
+}
+
+.Para_inicio_2{
+  color:green;
+  font-size:50px;
+}
+
+h1{
+  color:#060606;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+}
+
+a{
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+}
+
+.titulo_1:hover{
+  background: #0B73C4;
+  color:#fffbfb;
+  transition: all.3s
+}
+.texto_1{
+  color:#5605F9;
+}
+/*TITULOS*/
+.textoPImag{
+  color:#5605F9;
+  font: size 800px;
+}
+/*PARRAFOS LETRA GRANDE*/
+.parrafosPG{
+  color:#060606;
+  font-family: 'Courier New', Courier, monospace;
+  font-size:150%;
+  margin:0px 100px;
+  
+}
+.parrafos{
+  color:#060606;
+  font-family: 'Courier New', Courier, monospace;
+  font-size:150%;
+  margin:0px 100px;
+  
+}
+.texto_2{
+  color:#FEFEFE;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+}

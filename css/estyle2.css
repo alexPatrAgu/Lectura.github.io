@@ -1,0 +1,55 @@
+.edit_1
+{
+    height: 250px;
+    width: 250px;
+    border-radius: 100px;
+    border:0px solid #cccccc;
+}
+
+.edit_2
+{
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+    border:0px solid #cccccc;
+}
+.edicion_2
+{
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+    border:1px solid #060606;
+}
+
+.edit_especialidades
+{
+    height: 230px;
+    width: 230px;
+    border-radius: 290px;
+    border:3px solid #FEF419;
+}
+
+.edit_servMedicos
+{
+    height: 230px;
+    width: 230px;
+    border-radius: 290px;
+    border:3px solid #1323DE;
+}
+
+.portada
+{
+    height: 87%;
+    width: 87%;
+    border-radius: 290px;
+}
+
+.tabla_1{
+    border-radius: 20px;
+}
+
+.info_img{
+    width:450px;
+    height:300px;
+    border-radius: 50px;
+}

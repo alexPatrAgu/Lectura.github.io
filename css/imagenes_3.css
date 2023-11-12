@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.section_3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box_3{
+    text-align: center;
+    overflow: hidden;
+    position:relative;
+    margin:1.8%;
+}
+
+.box_3 .hover_3{
+    width:0px;
+    height: 90px;
+    margin:10%;
+    border-radius: 290px;
+    background-color:rgba(236, 236, 245, 0.568);
+    position:absolute;
+    top:14.8%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+    transition: .4s all;
+}
+
+.hover_3 h1{
+    color:#080808;
+    font-size:20px;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_3:hover .hover_3{
+    width:235px;
+    height: 230px;
+    border-radius: 290px;
+    justify-content: center;
+    align-items: center;
+    
+}
